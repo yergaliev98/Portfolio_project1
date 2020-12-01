@@ -1,0 +1,14 @@
+.paddings {
+    width:90%;
+    margin: 5% auto;
+}
+
+.main_additional img {
+    opacity:0.5;
+    transition: .7s;
+}
+
+.main_additional img:hover {
+    opacity: 1;
+    cursor: pointer ;
+}

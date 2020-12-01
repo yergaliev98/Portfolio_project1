@@ -1,0 +1,11 @@
+@import url('vendor/reset.css');
+@import url('vendor/same.css');
+@import url('components/header.css');
+@import url('components/under_header.css');
+@import url('components/main_first_block.css');
+@import url('components/main_project_block.css');
+@import url('components/main_service_block.css');
+@import url('components/main_testimonials_block.css');
+@import url('components/additionals.css');
+@import url('components/footer_block.css');
+@import url('components/adaptive.css');

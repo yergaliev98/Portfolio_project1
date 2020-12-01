@@ -1,0 +1,60 @@
+.service_elem {
+    width: calc(100% / 3 - 4%);
+    text-align:center;
+    margin-bottom:5%;
+    line-height: 1.5;
+}
+
+.service_elem>h4>a {
+    display: block;
+    margin:5% 0;
+    font-weight: 400;
+    font-size:24px;
+    color:black;
+    
+}
+
+.service_elem>p {
+    font-size:18px;
+    color:#6c757d;
+    font-weight: 200;
+}
+
+.service_elem:hover  a {
+    color:#af8855;
+    transition: 0.3s;
+}
+
+.service_elem:hover  .fas {
+    transition: 0.3s; 
+    color:#fff; 
+}
+
+
+
+.service_elem > .icons {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   cursor: pointer;
+}
+
+.service_elem  .icon_border {
+    border: 3px solid rgba(119, 118, 118,0.2);
+    width: 80px;
+    height:80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    padding:2%;
+    transition: 0.3s; 
+}
+
+.service_elem:hover  .icon_border {
+background-color: #af8855;
+transition: 0.3s;
+border: 3px solid rgba(119, 118, 118, 0.5);
+}
+
+

@@ -1,0 +1,64 @@
+.main_testimonials {
+    background-image: url('../../images/bgs/bg-testimonials.jpg');
+    background-size: cover;
+    background-position: bottom;
+    color:#fff;
+    padding:100px 0;
+}
+
+
+.testimonials_item {
+    width:calc(100% / 2 - 4%);
+    font-size: 20px;
+    line-height: 32px;
+    letter-spacing: .1px;
+    font-weight: 300;
+}
+
+.testimonials_item::before {
+    content:'"';
+    color:#aeb1be;
+    font-size: 80px;
+}
+
+
+.testimonials_bottom {
+    display: flex;
+    margin-top: 5%;
+    font-family: "Work Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+}
+
+.testimonials_bottom >img {
+    border-radius:50%;
+    width:60px;
+    height: 60px;
+    margin-right: 5%;
+}
+
+.owl_dots {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top:75px;
+}
+
+.owl_dots > button {
+    border:none;
+    background:none;
+    outline:none;
+    cursor: pointer;
+    width:fit-content;
+    height: fit-content;
+    margin:0 1%;
+}
+
+.owl_dots > button > i {
+    color:#fff;
+    transition: .3s;
+}
+
+.owl_dots > button > i:hover {
+    color:#af8855;
+    transform: scale(1.7);
+}
+
